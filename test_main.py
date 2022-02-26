@@ -25,7 +25,7 @@ def main(marketplace_id, pdf_folder=os.getcwd()) -> dict:
     """
     The main function for collection and mapping reports.
     :param marketplace_id:  marketplace identifier
-    :param pdf_folder:      path to pdf files
+    :param pdf_folder:      path to amazon pdf reports
     :return:                dict(date_range: [sm_report, amazon_report]
     """
     amazon_reports = main_pdf_parser(pdf_folder)
